@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "description": "Canonical mesh ↔ SKU identifiers for Three.js. Object / glTF node names must match mesh_id exactly.",
+  "parts": [
+    {
+      "mesh_id": "mesh_chassis_frame",
+      "sku": "SF-EDU-CHASSIS-01",
+      "name": "Chassis Frame",
+      "model": "mesh_chassis_frame.glb"
+    },
+    {
+      "mesh_id": "mesh_carrier_pcb_v4",
+      "sku": "SF-EDU-PCB-V4",
+      "name": "Carrier PCB v4",
+      "model": "mesh_carrier_pcb_v4.glb"
+    },
+    {
+      "mesh_id": "mesh_actuator_fl",
+      "sku": "SF-ACT-BLDC42",
+      "name": "Front-Left Actuator",
+      "model": "mesh_actuator_fl.glb"
+    },
+    {
+      "mesh_id": "mesh_lidar_turret_vx2",
+      "sku": "SF-OPT-LIDAR-VX2",
+      "name": "LiDAR Turret VX2",
+      "model": "mesh_lidar_turret_vx2.glb"
+    },
+    {
+      "mesh_id": "mesh_battery_pack_4s",
+      "sku": "SF-PWR-LFP-4S",
+      "name": "Battery Pack 4S",
+      "model": "mesh_battery_pack_4s.glb"
+    },
+    {
+      "mesh_id": "mesh_fault_injector_key",
+      "sku": "SF-EDU-INJECT-01",
+      "name": "Fault Injector Key",
+      "model": "mesh_fault_injector_key.glb"
+    }
+  ]
+}
